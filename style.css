@@ -1,0 +1,42 @@
+
+        .parent p{
+            font-family: fantasy;
+            letter-spacing: 3px;
+            text-decoration-line: underline;
+        }
+       p:hover{
+        color: aqua;
+        background-color: blueviolet;
+       }
+      .border{
+            border :2px solid red;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-style: dotted;
+      } 
+      .margin{
+        border :3px solid blue;
+        margin-top: 50px;
+        padding: 10px 50px 5px 30px;
+      }
+      .position
+      {
+        border :5px solid greenyellow;
+        height: 80vh;
+      }
+      .relative{
+        position:absolute;
+        top: 60px;
+        left:80px;
+      }
+      .page{
+        border :5px solid greenyellow;
+        height: 100vh;
+      }
+      
+      .fixed{
+       
+        position:fixed;
+        left:150px;
+      }
