@@ -1,0 +1,23 @@
+.Header{
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+   
+}
+li,h3,ul{
+    display: inline;
+}
+ul{
+    color: white;
+    margin-left: 600px;
+
+}
+.content 1{
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+} 
+h1,h5{
+    color:white;
+    margin: right 500px;
+}

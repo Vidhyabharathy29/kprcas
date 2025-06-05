@@ -45,3 +45,49 @@
         top: 10px;
         left:120px;
       }
+      .inline{
+        display: block;
+      }
+      .flex-container{
+        display:flex;
+        background-color: antiquewhite;
+        padding:2px;
+        justify-content: space-evenly;
+        border: 2px solid black;
+        padding: 15px;
+      }
+      .items{
+        background-color: blue;
+        border:2px solid: black;
+        
+        height: 100px;
+        width:100px;
+      }
+      .flex-container
+      div
+      {
+        background-color: aquamarine;
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+      }
+      .two{
+        flex-shrink: 0; 
+      }
+      .nav{
+        display: flex;
+        justify-content: left;
+      }
+      li{
+        list-style: none;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows:50px 50px;
+      }
+      .grid-container div{
+        border:2px solid red;
+      }
+      .
+      
