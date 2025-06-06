@@ -24,4 +24,14 @@
     <br> 
      <a href="style.css"_self">style file</a>
     <br> 
+    <input type="text" id="name">
+    <button onclick=showName()>click</button>
+    <h1 id="result">hii</h1>
+    <script>
+        function showName(){
+        const name=document.getElementByID('name').value
+        document.getElementByID('result').innerText=`Hello${name}`
+    }
+</script>
 </body>
+</html>

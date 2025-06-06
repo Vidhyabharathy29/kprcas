@@ -89,5 +89,14 @@
       .grid-container div{
         border:2px solid red;
       }
-      .
       
+      li,ul{
+        display inline;
+      }
+      @media (max-width:468px) {
+        .Header{
+          display:flex;
+          flex-direction: column;
+          color: blue;
+        }
+      }
